@@ -9,7 +9,14 @@
 // console.log(sum)
 
 // Function declaration & Function Expression
-console.log(square(25))
-function square(num) {
+// console.log(square(25))
+// function square(num) {
+//     return num**2
+// }
+
+
+// Function Expression
+const square = function(num) {
     return num**2
 }
+console.log(square(25))
