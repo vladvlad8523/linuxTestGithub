@@ -16,3 +16,7 @@ console.log((4 + 5 + 'px')) //bus 9px nes pirminis sk. o string antras
 console.log(('' + 4 +5)) //pirminis tring result = 45
 console.log(('42' - 40)) //string neturi reiksmes '-' ;
 console.log(('42px' - 42)) //sio atveju spranta 42px kaip string result = NaN
+
+//== vs ===
+console.log((2 == '2')) //true lygina pagal reiksme
+console.log((2 === '2')) //false lygina pagal typa, geriau naudot === sumaziasnis sansas del klaudu kode
