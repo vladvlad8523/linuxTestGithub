@@ -12,3 +12,4 @@ console.log(typeof undefined);
 console.log(typeof Math);
 console.log(typeof Symbol('JS'));
 console.log(typeof null); //vienintelis neteisingasis nes grazina object
+console.log(typeof NaN); //not a number
