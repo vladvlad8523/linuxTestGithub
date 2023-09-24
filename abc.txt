@@ -1,1 +1,0 @@
-nauduoti: node 'failo pavadinimas'
